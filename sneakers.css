@@ -1,0 +1,98 @@
+.bg-primary {
+	background-color: #ff6500 !important;
+}
+
+.bg-secondary {
+	background-color: #fedebe !important;
+}
+
+.orange {
+	color: #ff7500;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+#quantity {
+	max-width:5rem;
+	text-align: center;
+}
+
+#img1Btn {
+	background-image: url('imgs/sneakers1.png');
+	background-size: 120%;
+	background-position: 10% 10%;
+}
+#img2Btn {
+	background-image: url('imgs/sneakers2.png');
+	background-size: 120%;
+	background-position: 10% 10%;
+}
+#img3Btn {
+	background-image: url('imgs/sneakers3.png');
+	background-size: 120%;
+	background-position: 10% 10%;
+}
+#img4Btn {
+	background-image: url('imgs/sneakers4.png');
+	background-size: 120%;
+	background-position: 10% 10%;
+}
+
+.square {
+	position: relative;
+	/*width: 50%;	*/	/* desired width */
+	padding: 0px !important;
+}
+
+.square::before {
+	content: "";
+	float: left;
+	padding-top: 100%; 	/* initial ratio of 1:1*/
+}
+
+content {
+	padding-top: 1rem;
+}
+
+.img-btn-row {
+	margin: 1rem 0px;
+}
+
+.btn:focus, .btn:active {
+	outline: none !important;
+	box-shadow: 0 0 10px 0px #ff7500 !important;
+}
+
+.flex-container {
+	display: flex;
+}
+
+.align-centre {
+	align-items: center;
+}
+
+.centre {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*.icon {
+	font-size: 1.5rem;
+	height: 1.5rem;
+	width: 1.5rem;
+}*/
+
+.roundedCorners {
+	border-radius: 5% !important;
+}
+
+.white-stroke {
+	stroke:  #ffffff;
+}
